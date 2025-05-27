@@ -4,9 +4,10 @@ It will cover many security related use cases, deployment options, practical ada
 
 ## What is Foundation AI?
 Foundation AI, a Cisco organization dedicated to creating open bleeding-edge AI technology to empower cybersecurity applications.
-- Website: https://fdtn.ai/
-- Huggingface: https://huggingface.co/fdtn-ai
-- Technical Report: https://arxiv.org/abs/2504.21039
+- [Website](https://fdtn.ai/)
+- [Huggingface](https://huggingface.co/fdtn-ai)
+- Technical Report: 
+    - [Foundation-Sec-8B](https://arxiv.org/abs/2504.21039)
 
 ## Navigating the Cookbook
 This cookbook is organized into the following four main categories:
@@ -16,7 +17,7 @@ This cookbook is organized into the following four main categories:
 4. [Documents](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/4_documents): Reference for FAQ, other usages etc.
 
 ## FAQ
-See the FAQ section (to be created)
+See the [FAQ section](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/FAQ.md).
 
 ## Contact/Contributions
 TBD
