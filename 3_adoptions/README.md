@@ -1,10 +1,14 @@
 # 3. Adoptions
-Notebooks and scripts to use the models in production; they include finetuning, deployments, quantizations...
+Notebooks and scripts to use the models in production.
 
-## adoptions
+## Adoptions
 - finetunings
-    - CTI-HAL: Using human-annotated datasets for cyber threat intelligence analysis from CTI-HAL to determine each excerpt of security blogs, reports etc. is associated with which MITRE ATT&CK ID.
-    - CTI-VSP: Using the datasets of CTI-VSP (Cyber Threat Intelligence Vulnerability Severity Prediction), predict items of the Common Vulnerability Scoring System (CVSS) vector.
+    - [fine-tuning as CausalML](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/3_adoptions/finetuning/finetuning_causal_ml.ipynb)
+    - [fine-tuning by replacing the last layer with classfication head](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/3_adoptions/finetuning/finetuning_classification_head.ipynb)
+
+## More to come
+Stay tuned!
 - deployments
 - quantizations
 - end-to-end use cases
+- and so on...
