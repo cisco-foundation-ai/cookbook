@@ -5,7 +5,7 @@ It will cover many security related use cases, deployment options, practical ada
 ## What is Foundation AI?
 Foundation AI, a Cisco organization dedicated to creating open bleeding-edge AI technology to empower cybersecurity applications.
 - [Foundation AI's Website](https://fdtn.ai/)
-- [Huggingface](https://huggingface.co/fdtn-ai): download our models from the platform.
+- [Hugging Face](https://huggingface.co/fdtn-ai): download our models from the platform.
 - Technical Report: 
     - [Foundation-Sec-8B](https://arxiv.org/abs/2504.21039)
 

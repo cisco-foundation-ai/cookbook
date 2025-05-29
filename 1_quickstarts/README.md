@@ -9,7 +9,6 @@ For each model, there's a demo notebook for quick start.
 
 ## Pre-requisites
 Packages
-- huggingface
 - transformers
 - torch
 
