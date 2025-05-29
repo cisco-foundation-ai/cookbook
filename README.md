@@ -1,11 +1,11 @@
 # Welcome to the Cisco Foundation AI Cookbook
-This cookbook repository helps you get started with using models developed by Cisco Foundation AI team.
+This cookbook repository helps you get started with using models developed by Cisco Foundation AI team. <br>
 It will cover many security related use cases, deployment options, practical adaption approaches like finetuning and so forth.
 
 ## What is Foundation AI?
 Foundation AI, a Cisco organization dedicated to creating open bleeding-edge AI technology to empower cybersecurity applications.
-- [Website](https://fdtn.ai/)
-- [Huggingface](https://huggingface.co/fdtn-ai)
+- [Foundation AI's Website](https://fdtn.ai/)
+- [Huggingface](https://huggingface.co/fdtn-ai): download our models from the platform.
 - Technical Report: 
     - [Foundation-Sec-8B](https://arxiv.org/abs/2504.21039)
 
