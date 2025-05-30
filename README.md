@@ -18,8 +18,5 @@ This cookbook is organized into the following four main categories:
 3. [Adoptions](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions): Notebooks and scripts to use the models in production (e.g. finetuning).
 4. [Documents](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/4_documents): Reference for FAQ, other usages etc.
 
-## FAQ
-See the [FAQ section](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/FAQ.md).
-
 ## Contact/Contributions
 TBD
