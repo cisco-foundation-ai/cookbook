@@ -9,6 +9,5 @@ Notebooks and scripts to use the models in production.
 ## More to come
 Stay tuned!
 - deployments
-- quantizations
-- end-to-end use cases
+- quantizations: [Hugging Face community has already quantized our base model and uploaded them](https://huggingface.co/models?other=base_model%3Aquantized%3Afdtn-ai%2FFoundation-Sec-8B).
 - and so on...

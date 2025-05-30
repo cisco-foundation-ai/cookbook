@@ -6,8 +6,8 @@ It will cover many security related use cases, deployment options, practical ada
 Foundation AI, a Cisco organization dedicated to creating open bleeding-edge AI technology to empower cybersecurity applications.
 - [Foundation AI's Website](https://fdtn.ai/)
 - [Hugging Face](https://huggingface.co/fdtn-ai): download our models from the platform.
-- Technical Report: 
-    - [Foundation-Sec-8B](https://arxiv.org/abs/2504.21039)
+
+Also [FAQ section](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/FAQ.md) and [Reference page](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/Reference.md) are available.
 
 **Interested in preview-mode models? Request early access using the [form](https://fdtn.ai/early-access)!**
 
