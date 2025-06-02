@@ -17,6 +17,3 @@ This cookbook is organized into the following four main categories:
 2. [Examples](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/2_examples): Several use cases of cybersecurity demonstrating how to fully utilize our models.
 3. [Adoptions](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions): Notebooks and scripts to use the models in production (e.g. finetuning).
 4. [Documents](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/4_documents): Reference for FAQ, other usages etc.
-
-## Contact/Contributions
-TBD
