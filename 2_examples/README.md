@@ -12,3 +12,5 @@ Several use cases of cybersecurity demonstrating how to fully utilize different 
 - [Exploit Generation](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Exploit_Generation.ipynb) using Reasoning Model
 - [Buil Ennvironment Security (PR review)](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Build_Environment_Security.ipynb) using Instruct Model
 - [Config assessment](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Configuration_Assessment.ipynb) using Instruct Model
+
+**Since the Reasoning/Instruct models are in preview mode, you’ll need to request early access via [this form](https://fdtn.ai/early-access). Please note that the models may undergo updates, which can result in variations in outputs even when parameters are set for reproducibility.**
