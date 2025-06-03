@@ -1,2 +1,3 @@
 # 4. Documents
-Reference for FAQ, other usages etc.
+- [FAQ](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/FAQ.md)
+- [Reference](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/Reference.md)

@@ -7,7 +7,7 @@ Foundation AI, a Cisco organization dedicated to creating open bleeding-edge AI 
 - [Foundation AI's Website](https://fdtn.ai/)
 - [Hugging Face](https://huggingface.co/fdtn-ai): download our models from the platform.
 
-Also [FAQ section](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/FAQ.md) and [Reference page](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/Reference.md) are available.
+[FAQ section](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/FAQ.md) and [Reference page](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/Reference.md) are also available.
 
 **Interested in preview-mode models? Request early access using the [form](https://fdtn.ai/early-access)!**
 
