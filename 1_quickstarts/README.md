@@ -7,9 +7,14 @@ For each model, there's a demo notebook for quick start.
 - [<preview mode> Instruct Model (instruction-finetuned model)](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/1_quickstarts/Preview_Quickstart_instruct_model.ipynb)
 - [<preview mode> Reasoning Model](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/1_quickstarts/Preview_Quickstart_reasoning_model.ipynb)
 
+**The models can be run on a single Nvidia A100 GPU.**
+
 ## Pre-requisites
-Packages
+Python Packages
 - transformers
 - torch
 
-**The models can be run on a single Nvidia A100 GPU.**
+Additionally, if the quantized models are used:
+- llama-cpp-python
+- huggingface_hub
+For more details about the quantized models, see [the section of quantization](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/quantization).
