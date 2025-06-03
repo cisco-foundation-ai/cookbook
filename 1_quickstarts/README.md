@@ -2,7 +2,7 @@
 Guides to quickly download and use models for introductory topics.
 For each model, there's a demo notebook for quick start.
 
-## Models
+## Notebooks for each model
 The models can be run on a single Nvidia A100 GPU.
 ### Released
 - [Base Model (Foundation-Sec-8B)](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/1_quickstarts/Quickstart_Foundation-Sec-8B.ipynb)
@@ -21,4 +21,5 @@ Python Packages
 Additionally, if the quantized models are used:
 - llama-cpp-python
 - huggingface_hub
+
 For more details about the quantized models, see [the section of quantization](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/quantization).
