@@ -3,7 +3,9 @@ This cookbook repository helps you get started with using models developed by Ci
 It will cover many security related use cases, deployment options, practical adaption approaches like finetuning and so forth.
 
 ## What is Foundation AI?
-Foundation AI, a Cisco organization dedicated to creating open bleeding-edge AI technology to empower cybersecurity applications.
+Foundation AI is a pioneering team within Cisco Security, created by leading experts in artificial intelligence and cybersecurity who joined Cisco through the acquisition of Robust Intelligence. Our mission is to push the boundaries of what's possible at the intersection of AI and security.
+
+We develop cutting-edge open source models and tools designed to elevate the future of cybersecurity. From securing today's digital infrastructure to anticipating tomorrow's AI-driven challenges, Foundation AI is shaping a more secure, intelligent future.
 - [Foundation AI's Website](https://fdtn.ai/)
 - [Hugging Face](https://huggingface.co/fdtn-ai): download our models from the platform.
 
