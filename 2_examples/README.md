@@ -2,17 +2,17 @@
 Several use cases of cybersecurity demonstrating how to fully utilize different models.
 
 ## Use Cases
-### Utilizing Base Model (Foundation-Sec-8B)
-- [Classifications of cybersecurity descriptions](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Classification_cybersecurity_descriptions.ipynb)
+### Base Model (Foundation-Sec-8B) based
+- [Classifications of cybersecurity descriptions](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Classification_cybersecurity_descriptions.ipynb) <br>
 We also use the base model for fine-tuning use cases. For details, see the [the finetuning section](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/finetuning).
 
-### Utilizing Reasoning Model
+### Reasoning Model based
 - [Incident Investigation (end to end)](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Incident_Investigation_e2e.ipynb)
 - [OSINT reconnaissance](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/OSINT_reporting.ipynb)
 - [Redteam Planning](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Redteam_Planning.ipynb)
 - [Exploit Generation](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Exploit_Generation.ipynb)
 
-### Utilizing Instruct Model (instruction fine-tuned)
+### Utilizing Instruct Model (instruction fine-tuned model) based
 - [YARA patterns](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/YARA_patterns.ipynb)
 - [Incident Summarization](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Incident_Summarization.ipynb)
 - [MITRE Mapping](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Mitre_Mapping_Detection_Plays.ipynb)
