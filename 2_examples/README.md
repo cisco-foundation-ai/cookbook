@@ -16,7 +16,7 @@ We also use the base model for fine-tuning use cases. For details, see the [the 
 - [YARA patterns](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/YARA_patterns.ipynb)
 - [Incident Summarization](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Incident_Summarization.ipynb)
 - [MITRE Mapping](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Mitre_Mapping_Detection_Plays.ipynb)
-- [Buil Ennvironment Security (PR review)](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Build_Environment_Security.ipynb)
+- [Build Ennvironment Security (PR review)](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Build_Environment_Security.ipynb)
 - [Config assessment](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Configuration_Assessment.ipynb)
 
 **Since the Reasoning/Instruct models are in preview mode, you’ll need to request early access via [this form](https://fdtn.ai/early-access). Please note that the models may undergo updates, which can result in variations in outputs even when parameters are set for reproducibility.**
