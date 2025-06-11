@@ -12,9 +12,8 @@ pip install --upgrade truss
 2. Copy the foundation_sec_8b folder to the current directory.
 3. Deploy the model:
 ```bash
-truss push
+truss push # You would be prompted to provide API key. If you don't have one, you can get it from the console.
 ```
-You would be prompted to provide API key. If you don't have one, you can get it from the console. <br>
 4. Run Inference
 Once it's deployed, you can run inference using the endpoint.
 ```python
