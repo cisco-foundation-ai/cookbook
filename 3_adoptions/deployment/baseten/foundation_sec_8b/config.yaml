@@ -1,0 +1,13 @@
+model_name: 'Foundation-Sec-8B'
+python_version: py310
+model_metadata:
+  repo_id: fdtn-ai/Foundation-Sec-8B
+requirements:
+  - transformers
+  - torch
+  - accelerate>=0.26.0  
+resources:
+  accelerator: A100
+  use_gpu: true
+model_cache:
+  - repo_id: fdtn-ai/Foundation-Sec-8B
