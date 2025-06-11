@@ -1,6 +1,6 @@
 # Quantization
 
-Quantization reduces inference computational and memory demands by encoding weights and activations with lower-precision data types, enabling models to run on devices without GPUs.
+Quantization reduces inference computational and memory demands by encoding weights and activations with lower-precision data types, enabling models to run practically on devices without GPUs.
 
 We have released two quantized versions of our [base model](https://huggingface.co/fdtn-ai/Foundation-Sec-8B):
 - [fdtn-ai/Foundation-Sec-8B-Q4_K_M-GGUF](https://huggingface.co/fdtn-ai/Foundation-Sec-8B-Q4_K_M-GGUF): 4-bit quantized (~4.92GB memory footprint)
