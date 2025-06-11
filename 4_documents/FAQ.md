@@ -1,10 +1,15 @@
 # Frequently Asked Questions
 
 ### Q: Where can we find the Foundation AI models?
-You can download the models from our [Hugging Face page](https://huggingface.co/fdtn-ai), where model cards for each model are also available.
+You can download the released models from our [Hugging Face page](https://huggingface.co/fdtn-ai), where model cards for each model are also available.
+To access preview models, such as the reasoning model, please request early access via [this form](https://fdtn.ai/early-access).
 
 ### Q: Can we use the models for commercial purposes free of charge?
 Yes! Our models are licensed under Apache 2.0, allowing free commercial use as long as you comply with the license terms.
+
+### Q: Are GPUs required to run the models?
+Technically, no. However, for practical purposes, we recommend using GPUs for faster inference.
+In CPU-only environments, we suggest using quantized models for optimal performance. See [the quantization section](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/quantization) for more details.
 
 ### Q: How are LLMs being adopted in cybersecurity today?
 LLMs are used in two main ways:
