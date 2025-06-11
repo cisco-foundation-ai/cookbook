@@ -33,4 +33,5 @@ def inference(prompt):
     )
     return response.text
 ```
-`YOUR_GENERATION_ARGS` is a dictionary containing generation arguments. For more details, refer to the [Hugging Face documentation](https://huggingface.co/docs/transformers/en/main_classes/text_generation).
+`YOUR_GENERATION_ARGS` is a dictionary containing generation arguments. <br>
+For more details, refer to the [configuration section of quickstart guide](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/1_quickstarts/Quickstart_Foundation-Sec-8B.ipynb).
