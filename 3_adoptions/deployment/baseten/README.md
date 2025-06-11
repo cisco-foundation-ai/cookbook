@@ -1,10 +1,10 @@
 # Deployment and Inference with Baseten
 
 [Baseten](https://www.baseten.co/) can be used to deploy the base model for inference. <br>
-We have provided a sample code for deploying the base model on the platform. <br>
+Sample code bundles are provided for deployment on the platform. <br>
 Please note that we assume you already have Baseten accounts or contracts and are aware that deployments will incur costs.
 
-## Deploy Models
+## Deploy the model
 1. Install Truss:
 ```bash
 pip install --upgrade truss
@@ -14,7 +14,7 @@ pip install --upgrade truss
 ```bash
 truss push
 ```
-You would be prompted to provide API key. If you don't have one, you can get it from the console.
+You would be prompted to provide API key. If you don't have one, you can get it from the console. <br>
 4. Run Inference
 Once it's deployed, you can run inference using the endpoint.
 ```python
@@ -34,4 +34,4 @@ def inference(prompt):
     )
     return response.text
 ```
-YOUR_GENERATION_ARGS is a dictionary containing generation arguments. For more details, refer to the [Hugging Face documentation](https://huggingface.co/docs/transformers/en/main_classes/text_generation).
+`YOUR_GENERATION_ARGS` is a dictionary containing generation arguments. For more details, refer to the [Hugging Face documentation](https://huggingface.co/docs/transformers/en/main_classes/text_generation).
