@@ -23,5 +23,5 @@ This cookbook is organized into the following four main categories. Please refer
     - [FAQ](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/FAQ.md): Frequently Asked Questions.
     - [Reference](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/Reference.md): Links and resources, including Cisco blogs, technical model reports, and more.
 
-## Contributing to the cookbook
+## Contributing to the Cookbook
 We appreciate your contributions! If you have questions, suggestions (including missing use cases), or notice any issues, please open an issue, start a discussion, or submit a pull request.
