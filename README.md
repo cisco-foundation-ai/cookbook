@@ -14,8 +14,13 @@ We develop cutting-edge open source models and tools designed to elevate the fut
 **Interested in preview-mode models? Request early access using the [form](https://fdtn.ai/early-access)!**
 
 ## Navigating the Cookbook
-This cookbook is organized into the following four main categories:
+This cookbook is organized into the following four main categories. Please refer to each section for detailed guidance.
 1. [Quickstarts](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/1_quickstarts): Guides to quickly download and use models for introductory topics.
 2. [Examples](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/2_examples): Several use cases of cybersecurity demonstrating how to fully utilize our models.
-3. [Adoptions](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions): Notebooks and scripts to use the models in production (finetuning, quantizated models and deployment).
-4. [Documents](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/4_documents): References page, FAQ etc.
+3. [Adoptions](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions): Notebooks and scripts to use the models in production.
+- [Finetunings](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/finetuning)
+- [Quantized models](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/quantization)
+- [Deployments](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/deployment)
+4. [Documents](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/4_documents)
+- [FAQ](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/FAQ.md)
+- [Reference](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/Reference.md): Useful links and resources, including Cisco blogs, technical model reports, and more.
