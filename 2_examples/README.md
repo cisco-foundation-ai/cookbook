@@ -12,7 +12,7 @@ We also use the base model for fine-tuning use cases. For details, see the [the 
 - [Redteam Planning](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Redteam_Planning.ipynb)
 - [Exploit Generation](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Exploit_Generation.ipynb)
 
-### Utilizing Instruct Model (instruction fine-tuned model) based
+### Instruct Model (instruction fine-tuned model) based
 - [YARA patterns](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/YARA_patterns.ipynb)
 - [Incident Summarization](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Incident_Summarization.ipynb)
 - [MITRE Mapping](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Mitre_Mapping_Detection_Plays.ipynb)
@@ -20,3 +20,5 @@ We also use the base model for fine-tuning use cases. For details, see the [the 
 - [Config assessment](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Configuration_Assessment.ipynb)
 
 **Since the Reasoning/Instruct models are in preview mode, you’ll need to request early access via [this form](https://fdtn.ai/early-access). Please note that the models may undergo updates, which can result in variations in outputs even when parameters are set for reproducibility.**
+
+If you have additional use cases or spot any issues, feel free to share them through discussions, issues, or pull requests.
