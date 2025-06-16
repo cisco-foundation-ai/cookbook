@@ -18,9 +18,9 @@ This cookbook is organized into the following four main categories. Please refer
 1. [Quickstarts](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/1_quickstarts): Guides to quickly download and use models for introductory topics.
 2. [Examples](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/2_examples): Several use cases of cybersecurity demonstrating how to fully utilize our models.
 3. [Adoptions](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions): Notebooks and scripts to use the models in production.
-    - [Finetunings](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/finetuning)
-    - [Quantized models](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/quantization)
-    - [Deployments](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/deployment)
-4. [Documents](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/4_documents)
+    - [Finetunings](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/finetuning): Finetuning pipelines for the base model for specific tasks.
+    - [Quantized models](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/quantization): Quantized models for light-weight inference.
+    - [Deployments](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/deployment): Sample deployments scripts for several platforms.
+4. [Documents](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/4_documents): useful documents and links.
     - [FAQ](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/FAQ.md)
-    - [Reference](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/Reference.md): Useful links and resources, including Cisco blogs, technical model reports, and more.
+    - [Reference](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/Reference.md): Links and resources, including Cisco blogs, technical model reports, and more.
