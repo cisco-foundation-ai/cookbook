@@ -7,7 +7,7 @@
 ## Technical Report
 - [Foundation-Sec-8B](https://arxiv.org/abs/2504.21039)
 
-## Matrials from Community
-- [SecOps use case with Splunk](https://www.splunk.com/en_us/blog/artificial-intelligence/accelerating-security-operations-with-splunk-and-foundation-ai-s-first-open-source-security-model.html)\
+## Materials from Community
+- [SecOps use case with Splunk](https://www.splunk.com/en_us/blog/artificial-intelligence/accelerating-security-operations-with-splunk-and-foundation-ai-s-first-open-source-security-model.html)
 - [Installation guide for NodeShift](https://dev.to/nodeshiftcloud/how-to-install-foundation-sec-8b-by-cisco-the-ultimate-cybersecurity-ai-model-2j9i)
 - [Log analysis video](https://www.linkedin.com/posts/ownyourai_i-went-down-the-cisco-foundation-sec-llm-activity-7325084705433743360-oYiw/)
