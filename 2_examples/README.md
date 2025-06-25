@@ -3,6 +3,8 @@ Several use cases of cybersecurity demonstrating how to fully utilize different 
 
 ## Use Cases
 ### Base Model (Foundation-Sec-8B) based
+- [Zero-Shot Classifications of cybersecurity-related text](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Zero_Shot_Classification.ipynb) <br>
+Performs zero-shot classification using perplexity scoring - no fine-tuning required.
 - [Classifications of cybersecurity descriptions](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Classification_cybersecurity_descriptions.ipynb) <br>
 We also use the base model for fine-tuning use cases. For details, see the [the finetuning section](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/finetuning).
 
