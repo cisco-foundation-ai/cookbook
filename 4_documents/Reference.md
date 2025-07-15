@@ -1,7 +1,7 @@
 # References
 
 ## Blogs
-- [Foundation AI Blog](https://fdtn.ai/blog): we continuously publish blogs with the latest updates on our products and research.
+- [Foundation AI Blogs](https://fdtn.ai/blog): we continuously publish blogs with the latest updates on our products and research.
 - [Foundation-sec-8b: Cisco Foundation AI’s First Open-Source Security Model](https://blogs.cisco.com/security/foundation-sec-cisco-foundation-ai-first-open-source-security-model)
 - [Foundation-sec-8b-reasoning: World’s First Security Reasoning Model](https://blogs.cisco.com/security/foundation-sec-8b-reasoning-worlds-first-security-reasoning-model)
 

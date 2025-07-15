@@ -9,6 +9,7 @@ Foundation AI is a pioneering team within Cisco Security, created by leading exp
 We develop cutting-edge open source models and tools designed to elevate the future of cybersecurity. From securing today's digital infrastructure to anticipating tomorrow's AI-driven challenges, Foundation AI is shaping a more secure, intelligent future.
 - [Foundation AI's Website](https://fdtn.ai/): we continuously publish blogs with the latest updates on our products and research.
 - [Hugging Face](https://huggingface.co/fdtn-ai): download our models from the platform.
+
 Follow our [LinkedIn page](https://www.linkedin.com/company/fdtn/) for updates.
 
 **Interested in preview-mode models? Request early access using the [form](https://fdtn.ai/early-access)!**
