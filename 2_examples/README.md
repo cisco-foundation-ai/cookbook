@@ -13,6 +13,7 @@ We also use the base model for fine-tuning use cases. For details, see the [the 
 - [OSINT reconnaissance](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/OSINT_reporting.ipynb)
 - [Redteam Planning](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Redteam_Planning.ipynb)
 - [Exploit Generation](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Exploit_Generation.ipynb)
+- [Root Cause Analysis](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Root_Cause_Analysis.ipynb)
 
 ### Instruct Model (instruction fine-tuned model) based
 - [YARA patterns](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/YARA_patterns.ipynb)
