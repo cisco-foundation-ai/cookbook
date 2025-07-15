@@ -1,13 +1,16 @@
 # Welcome to the Cisco Foundation AI Cookbook
 This cookbook repository helps you get started with using models developed by Cisco Foundation AI team. <br>
 It will cover many security related use cases, deployment options, practical adaption approaches like finetuning and so forth.
+For a high-level overview of the cookbook, please refer to our [blog post of introduction to the cookbook](https://www.linkedin.com/pulse/foundation-sec-8b-language-model-cybersecurity-introduction-cookbook-l9tsc).
 
 ## What is Foundation AI?
 Foundation AI is a pioneering team within Cisco Security, created by leading experts in artificial intelligence and cybersecurity who joined Cisco through the acquisition of Robust Intelligence. Our mission is to push the boundaries of what's possible at the intersection of AI and security.
 
 We develop cutting-edge open source models and tools designed to elevate the future of cybersecurity. From securing today's digital infrastructure to anticipating tomorrow's AI-driven challenges, Foundation AI is shaping a more secure, intelligent future.
-- [Foundation AI's Website](https://fdtn.ai/)
+- [Foundation AI's Website](https://fdtn.ai/): we continuously publish blogs with the latest updates on our products and research.
 - [Hugging Face](https://huggingface.co/fdtn-ai): download our models from the platform.
+
+Follow our [LinkedIn page](https://www.linkedin.com/company/fdtn/) for updates.
 
 **Interested in preview-mode models? Request early access using the [form](https://fdtn.ai/early-access)!**
 
