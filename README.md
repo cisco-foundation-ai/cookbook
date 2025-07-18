@@ -14,6 +14,9 @@ Follow our [LinkedIn page](https://www.linkedin.com/company/fdtn/) for updates.
 
 **Interested in preview-mode models? Request early access using the [form](https://fdtn.ai/early-access)!**
 
+## Demo Video
+[![](https://img.youtube.com/vi/ei5ND9bwmRo/0.jpg)](https://www.youtube.com/watch?v=ei5ND9bwmRo)
+
 ## Navigating the Cookbook
 This cookbook is organized into the following four main categories. Please refer to each section for detailed guidance.
 1. [Quickstarts](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/1_quickstarts): Guides to quickly download and use models for introductory topics.
