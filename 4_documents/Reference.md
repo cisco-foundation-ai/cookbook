@@ -1,4 +1,5 @@
 # References
+Follow our [LinkedIn page](https://www.linkedin.com/company/fdtn/) for updates.
 
 ## Blogs
 - [Foundation AI Blogs](https://fdtn.ai/blog): we continuously publish blogs with the latest updates on our products and research.
