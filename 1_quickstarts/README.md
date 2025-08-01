@@ -6,9 +6,9 @@ For each model, there's a demo notebook for quick start.
 The models can be run on a single Nvidia A100 GPU.
 ### Released
 - [Base Model (Foundation-Sec-8B)](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/1_quickstarts/Quickstart_Foundation-Sec-8B.ipynb)
+- [Instruction Fine-Tuned Model (Foundation-Sec-8B-Instruct)](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/1_quickstarts/Preview_Quickstart_instruct_model.ipynb)
 
 ### Preview-mode
-- [Instruct Model (instruction-finetuned model)](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/1_quickstarts/Preview_Quickstart_instruct_model.ipynb)
 - [Reasoning Model](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/1_quickstarts/Preview_Quickstart_reasoning_model.ipynb)
 
 **Interested in preview-mode models? Request early access using the [form](https://fdtn.ai/early-access)!**
