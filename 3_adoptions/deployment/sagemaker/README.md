@@ -34,4 +34,6 @@ Our instruction-fine-tuned model optimized for chat and instruction-following ta
 
 For more details on setting up JupyterLab on SageMaker, visit: https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated-jl.html
 
+## Note
+
 Please note that we assume you already have AWS accounts or contracts and are aware that deployments will incur costs.
