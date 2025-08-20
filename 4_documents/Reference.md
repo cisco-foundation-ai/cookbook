@@ -7,7 +7,8 @@ Follow our [LinkedIn page](https://www.linkedin.com/company/fdtn/) for updates.
 - [Foundation-sec-8b-reasoning: World’s First Security Reasoning Model](https://blogs.cisco.com/security/foundation-sec-8b-reasoning-worlds-first-security-reasoning-model)
 
 ## Technical Report
-- [Foundation-Sec-8B](https://arxiv.org/abs/2504.21039)
+- [FoundationAI-SecurityLLM-Base-8B](https://arxiv.org/abs/2504.21039)
+- [FoundationAI-SecurityLLM-8B-Instruct](https://arxiv.org/abs/2508.01059)
 
 ## Materials from Community
 - [SecOps use case with Splunk](https://www.splunk.com/en_us/blog/artificial-intelligence/accelerating-security-operations-with-splunk-and-foundation-ai-s-first-open-source-security-model.html)
