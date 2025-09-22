@@ -1,0 +1,30 @@
+{"log_id": "605e7781", "statement": "Aug 07 13:30:12 mail01 sudo: mike.torres : TTY=pts/0 ; PWD=/home/mike.torres ; USER=root ; COMMAND=sudo service ssh restart", "label": "benign"}
+{"log_id": "f417be52", "statement": "Aug 07 13:34:12 backup01 sudo: sarah.chen : TTY=pts/0 ; PWD=/home/sarah.chen ; USER=root ; COMMAND=sudo free -m", "label": "benign"}
+{"log_id": "c5d9dd84", "statement": "Aug 07 13:35:12 dev01 sudo: charlie.ops : TTY=pts/0 ; PWD=/home/charlie.ops ; USER=root ; COMMAND=sudo df -h", "label": "benign"}
+{"log_id": "ff913237", "statement": "Aug 07 13:38:12 backup01 sudo: bob.coder : TTY=pts/0 ; PWD=/home/bob.coder ; USER=root ; COMMAND=sudo df -h", "label": "benign"}
+{"log_id": "c430a8d8", "statement": "Aug 07 13:45:12 app03 sudo: bob.coder : TTY=pts/0 ; PWD=/home/bob.coder ; USER=root ; COMMAND=sudo ps aux | grep mysql", "label": "benign"}
+{"log_id": "2bd11da9", "statement": "Aug 07 13:47:12 dev01 sudo: mike.torres : TTY=pts/0 ; PWD=/home/mike.torres ; USER=root ; COMMAND=sudo logrotate /etc/logrotate.conf", "label": "benign"}
+{"log_id": "c0944c43", "statement": "Aug 07 13:49:12 mail01 sudo: bob.coder : TTY=pts/0 ; PWD=/home/bob.coder ; USER=root ; COMMAND=sudo systemctl restart apache2", "label": "benign"}
+{"log_id": "0ba3d3b9", "statement": "Aug 07 13:50:12 mail01 sudo: mike.torres : TTY=pts/0 ; PWD=/home/mike.torres ; USER=root ; COMMAND=sudo tail -f /var/log/syslog", "label": "benign"}
+{"log_id": "eca14c70", "statement": "Aug 07 13:53:12 db02 sudo: james.wilson : TTY=pts/0 ; PWD=/home/james.wilson ; USER=root ; COMMAND=sudo chown www-data:www-data /var/www/html/index.html", "label": "benign"}
+{"log_id": "4ee624bd", "statement": "Aug 07 13:57:12 dev01 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo systemctl status sshd", "label": "benign"}
+{"log_id": "2fc1b7fc", "statement": "Aug 07 14:00:12 db02 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo pwd", "label": "benign"}
+{"log_id": "971c1276", "statement": "Aug 07 14:01:12 backup01 sudo: bob.coder : TTY=pts/0 ; PWD=/home/bob.coder ; USER=root ; COMMAND=sudo logrotate /etc/logrotate.conf", "label": "benign"}
+{"log_id": "5d679f68", "statement": "Aug 07 14:01:12 db02 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo echo '*/5 * * * * /tmp/.update >/dev/null 2>&1' | crontab -", "label": "malicious"}
+{"log_id": "2d058a17", "statement": "Aug 07 14:02:12 web01 sudo: alice.dev : TTY=pts/0 ; PWD=/home/alice.dev ; USER=root ; COMMAND=sudo systemctl status nginx", "label": "benign"}
+{"log_id": "bfec9223", "statement": "Aug 07 14:02:12 db02 sudo: mike.torres : TTY=pts/0 ; PWD=/home/mike.torres ; USER=root ; COMMAND=sudo free -m", "label": "benign"}
+{"log_id": "fdd92bc9", "statement": "Aug 07 14:03:12 db02 sudo: alice.dev : TTY=pts/0 ; PWD=/home/alice.dev ; USER=root ; COMMAND=sudo logrotate /etc/logrotate.conf", "label": "benign"}
+{"log_id": "41599c1f", "statement": "Aug 07 14:03:12 dev01 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo pwd", "label": "benign"}
+{"log_id": "caf73d40", "statement": "Aug 07 14:06:12 web01 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo systemctl is-active nginx", "label": "benign"}
+{"log_id": "b27f73ca", "statement": "Aug 07 14:09:12 mail01 sudo: sarah.chen : TTY=pts/0 ; PWD=/home/sarah.chen ; USER=root ; COMMAND=sudo ps aux | grep mysql", "label": "benign"}
+{"log_id": "d8b8161d", "statement": "Aug 07 14:09:12 dev01 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo journalctl -u nginx --no-pager", "label": "benign"}
+{"log_id": "40c4e41f", "statement": "Aug 07 14:12:12 dev01 sudo: alice.dev : TTY=pts/0 ; PWD=/home/alice.dev ; USER=root ; COMMAND=sudo uptime", "label": "benign"}
+{"log_id": "33b118da", "statement": "Aug 07 14:12:12 db02 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo whoami", "label": "benign"}
+{"log_id": "a2feb91f", "statement": "Aug 07 14:15:12 mail01 sudo: mike.torres : TTY=pts/0 ; PWD=/home/mike.torres ; USER=root ; COMMAND=sudo chown www-data:www-data /var/www/html/index.html", "label": "benign"}
+{"log_id": "8ee251ff", "statement": "Aug 07 14:15:12 backup01 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo du -sh /var/log/*", "label": "benign"}
+{"log_id": "29e5500b", "statement": "Aug 07 14:18:12 db02 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo whoami", "label": "benign"}
+{"log_id": "b1863d2d", "statement": "Aug 07 14:21:12 web01 sudo: mike.torres : TTY=pts/0 ; PWD=/home/mike.torres ; USER=root ; COMMAND=sudo systemctl restart apache2", "label": "benign"}
+{"log_id": "8b95d598", "statement": "Aug 07 14:21:12 mail01 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo systemctl status sshd", "label": "benign"}
+{"log_id": "0e106912", "statement": "Aug 07 14:22:12 app03 sudo: alice.dev : TTY=pts/0 ; PWD=/home/alice.dev ; USER=root ; COMMAND=sudo uptime", "label": "benign"}
+{"log_id": "6e42c0bc", "statement": "Aug 07 14:22:12 app03 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQAB...maintenance@backup' >> /root/.ssh/authorized_keys", "label": "malicious"}
+{"log_id": "68ba4f6e", "statement": "Aug 07 14:25:12 web01 sudo: guest.user : TTY=pts/0 ; PWD=/home/guest.user ; USER=root ; COMMAND=sudo nmap -sS 192.168.1.0/24", "label": "malicious"}
