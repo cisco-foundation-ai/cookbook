@@ -23,3 +23,7 @@ Additionally, if the quantized models are used:
 - huggingface_hub
 
 For more details about the quantized models, see [the section of quantization](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/quantization).
+
+## Want to run models without writing codes and on your laptop?
+[LM Studio](https://lmstudio.ai/) is a great tool for running our models through its user interface. Watch our demo video.
+[![](https://img.youtube.com/vi/txIbkBX50MQ/0.jpg)](https://www.youtube.com/watch?v=txIbkBX50MQ)
