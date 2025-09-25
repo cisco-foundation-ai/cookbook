@@ -15,7 +15,7 @@ Follow our [LinkedIn page](https://www.linkedin.com/company/fdtn/) for updates.
 **Interested in preview-mode models? Request early access using the [form](https://fdtn.ai/early-access)!**
 
 ## Demo Video
-[![](https://img.youtube.com/vi/ei5ND9bwmRo/0.jpg)](https://www.youtube.com/watch?v=ei5ND9bwmRo)
+[![](https://img.youtube.com/vi/ei5ND9bwmRo/0.jpg)](https://www.youtube.com/watch?v=ei5ND9bwmRo) <br>
 Want to run models without writing codes and on your laptop? Another demo video shows how to use our model on a UI. Watch it [here](https://github.com/cisco-foundation-ai/cookbook/tree/main/1_quickstarts).
 
 ## Navigating the Cookbook
