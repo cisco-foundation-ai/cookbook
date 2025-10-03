@@ -16,6 +16,12 @@ Our instruction-fine-tuned model optimized for chat and instruction-following ta
 - **Inference**: [foundation_sec_8b_instruct/inference.ipynb](./foundation_sec_8b_instruct/inference.ipynb)
 - **Documentation**: [foundation_sec_8b_instruct/README.md](./foundation_sec_8b_instruct/README.md)
 
+### Foundation-Sec-8B-Instruct-Q8_0-GGUF (8 bit quantized IFT Model)
+
+- **Deploy**: [foundation_sec_8b_instruct_quantized/deploy.ipynb](./foundation_sec_8b_instruct_quantized/cpu/deploy.ipynb)
+- **Inference**: [foundation_sec_8b_instruct_quantized/inference.ipynb](./foundation_sec_8b_instruct_quantized/cpu/inference.ipynb)
+- **Documentation**: [foundation_sec_8b_instruct_quantized/README.md](./foundation_sec_8b_instruct_quantized/cpu/README.md)
+
 ## Getting Started
 
 1. Choose the model that best fits your use case:
