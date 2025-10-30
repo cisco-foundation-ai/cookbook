@@ -34,7 +34,12 @@ def inference(prompt):
     return response.text
 ```
 
-Example for calling inference with vLLM server & constrained decoding backend. Note that vLLM uses the OpenAI API:
+`YOUR_GENERATION_ARGS` is a dictionary containing generation arguments. <br>
+For more details, refer to the [configuration section of quickstart guide](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/1_quickstarts/Quickstart_Foundation-Sec-8B.ipynb).
+
+To run inference with a vLLM server to utilize the constrained decoding backend, you use the [OpenAI API](https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html) with your Baseten deployment.
+
+For example, using the Chat Completions API:
 
 ```python
 
@@ -73,6 +78,3 @@ def inference(prompt: str, schema: dict, url=ENDPOINT_URL) -> str:
     return response.json()
 
 ```
-
-`YOUR_GENERATION_ARGS` is a dictionary containing generation arguments. <br>
-For more details, refer to the [configuration section of quickstart guide](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/1_quickstarts/Quickstart_Foundation-Sec-8B.ipynb).
