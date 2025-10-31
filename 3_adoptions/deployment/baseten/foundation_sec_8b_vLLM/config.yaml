@@ -1,0 +1,20 @@
+model_name: "Foundation-Sec-8B-Instruct-vLLM"
+base_image:
+  image: vllm/vllm-openai:v0.9.2
+docker_server:
+  # vLLM supported --guided-decoding-backend values are “xgrammar”, “guidance”, and “auto”.
+  start_command: sh -c "vllm serve fdtn-ai/Foundation-Sec-8B-Instruct --guided-decoding-backend xgrammar --no-guided-decoding-disable-fallback --port 8000"
+  readiness_endpoint: /health
+  liveness_endpoint: /health
+  predict_endpoint: /v1/completions
+  server_port: 8000
+resources:
+  accelerator: A100
+  use_gpu: true
+secrets:
+  hf_access_token: null
+model_metadata:
+  # Update to 1.1 once available
+  repo_id: fdtn-ai/Foundation-Sec-8B-Instruct
+  openai_compatible: true
+  vllm_config: null
