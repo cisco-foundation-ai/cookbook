@@ -26,6 +26,8 @@ This cookbook is organized into the following four main categories. Please refer
     - [Finetunings](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/finetuning): Finetuning pipelines for the base model for specific tasks.
     - [Quantized models](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/quantization): Quantized models for light-weight inference.
     - [Deployments](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/deployment): Sample deployments scripts for several platforms.
+    - [Integrations](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/integrations): Sample scripts for integrating FoundationSec models with services and workflows
+
 4. [Documents](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/4_documents): Useful documents and links.
     - [FAQ](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/FAQ.md): Frequently Asked Questions.
     - [Reference](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/4_documents/Reference.md): Links and resources, including Cisco blogs, technical model reports, and more.
