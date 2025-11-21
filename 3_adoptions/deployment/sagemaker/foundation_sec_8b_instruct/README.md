@@ -1,6 +1,6 @@
 # Foundation-Sec-8B-Instruct Model - SageMaker Deployment
 
-This directory contains cookbooks for deploying and running inference with the **Foundation-Sec-8B-Instruct model** on Amazon SageMaker.
+This directory contains cookbooks for deploying and running inference with the **Foundation-Sec-1.1-8B-Instruct model** on Amazon SageMaker.
 
 We provide two sample notebooks:
 1. Deploy Models: Deploy Foundation AI models on SageMaker and create an inference endpoint ([link](./deploy.ipynb)).
