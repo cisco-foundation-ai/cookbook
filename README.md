@@ -1,6 +1,6 @@
 # Welcome to the Cisco Foundation AI Cookbook
 This cookbook repository helps you get started with using models developed by Cisco Foundation AI team. <br>
-It will cover many security related use cases, deployment options, practical adaption approaches like finetuning and so forth.
+It will cover many security related use cases, deployment options, practical adaptation approaches like finetuning and so forth.
 For a high-level overview of the cookbook, please refer to our [blog post of introduction to the cookbook](https://www.linkedin.com/pulse/foundation-sec-8b-language-model-cybersecurity-introduction-cookbook-l9tsc).
 
 ## What is Foundation AI?
@@ -22,7 +22,7 @@ Want to run models without writing codes and on your laptop? Another demo video 
 This cookbook is organized into the following four main categories. Please refer to each section for detailed guidance.
 1. [Quickstarts](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/1_quickstarts): Guides to quickly download and use models for introductory topics.
 2. [Examples](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/2_examples): Several use cases of cybersecurity demonstrating how to fully utilize our models.
-3. [Adoptions](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions): Notebooks and scripts to use the models in production.
+3. [Adaptations](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions): Notebooks and scripts to use the models in production.
     - [Finetunings](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/finetuning): Finetuning pipelines for the base model for specific tasks.
     - [Quantized models](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/quantization): Quantized models for light-weight inference.
     - [Deployments](https://github.com/RobustIntelligence/foundation-ai-cookbook/tree/main/3_adoptions/deployment): Sample deployments scripts for several platforms.
