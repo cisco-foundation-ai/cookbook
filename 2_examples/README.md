@@ -12,7 +12,7 @@ We also use the base model for fine-tuning use cases. For details, see the [the 
 
 
 
-### Instruction Fine-Tuned Model (Foundation-Sec-8B-Instruct) based
+### Instruction Fine-Tuned Model (Foundation-Sec-8B-X.X-Instruct) based
 - [YARA patterns](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/YARA_patterns.ipynb)
 - [Incident Summarization](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Incident_Summarization.ipynb)
 - [MITRE Mapping](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/2_examples/Mitre_Mapping_Detection_Plays.ipynb)
