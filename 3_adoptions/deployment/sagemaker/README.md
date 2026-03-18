@@ -1,6 +1,6 @@
 # Deployment and Inference with Amazon SageMaker AI
 
-This directory contains cookbooks for deploying and running inference with Foundation AI models on Amazon SageMaker. We provide examples for both our base model and instruct-tuned model.
+This directory contains cookbooks for deploying and running inference with Foundation AI models on Amazon SageMaker. We provide examples for our base model, instruct-tuned model, and reasoning model.
 
 ## Available Models
 
