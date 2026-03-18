@@ -16,6 +16,12 @@ Our instruction-fine-tuned model optimized for chat and instruction-following ta
 - **Inference**: [foundation_sec_8b_instruct/inference.ipynb](./foundation_sec_8b_instruct/inference.ipynb)
 - **Documentation**: [foundation_sec_8b_instruct/README.md](./foundation_sec_8b_instruct/README.md)
 
+### Foundation-Sec-8B-Reasoning (Reasoning Model)
+Our reasoning model that produces chain-of-thought traces for security tasks. Uses the vLLM container with the `minimax_m2` reasoning parser.
+- **Deploy**: [foundation_sec_8b_reasoning/deploy.ipynb](./foundation_sec_8b_reasoning/deploy.ipynb)
+- **Inference**: [foundation_sec_8b_reasoning/inference.ipynb](./foundation_sec_8b_reasoning/inference.ipynb)
+- **Documentation**: [foundation_sec_8b_reasoning/README.md](./foundation_sec_8b_reasoning/README.md)
+
 ### Foundation-Sec-8B-Instruct-Q8_0-GGUF (8 bit quantized IFT Model)
 
 - **Deploy**: [foundation_sec_8b_instruct_quantized/deploy.ipynb](./foundation_sec_8b_instruct_quantized/cpu/deploy.ipynb)
@@ -27,6 +33,7 @@ Our instruction-fine-tuned model optimized for chat and instruction-following ta
 1. Choose the model that best fits your use case:
    - **Base Model**: Better for completion tasks, fine-tuning, or when you need maximum flexibility
    - **Instruct Model**: Better for chat applications, Q&A, and instruction-following tasks
+   - **Reasoning Model**: Better for complex security analysis tasks that benefit from chain-of-thought reasoning
 
 2. Navigate to the appropriate model directory
 3. Start with the `deploy.ipynb` notebook to set up your SageMaker endpoint
