@@ -12,7 +12,7 @@ Our reasoning model that produces chain-of-thought traces for security tasks.
 
 ## Getting Started
 
-1. Ensure your model artifacts are on S3 (BF16 safetensors format)
+1. Upload your model to S3 using the included [`upload_hf_to_s3.py`](./upload_hf_to_s3.py) helper script (or bring your own S3 artifacts)
 2. Start with the `deploy.ipynb` notebook to import the model into Bedrock
 3. Use the `inference.ipynb` notebook to test your imported model
 
