@@ -13,7 +13,3 @@ docker_server:
 resources:
   accelerator: H100
   use_gpu: true
-
-secrets:
-  hf_access_token: null
-
