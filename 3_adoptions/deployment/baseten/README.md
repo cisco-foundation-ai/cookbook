@@ -9,10 +9,10 @@ Please note that we assume you already have Baseten accounts or contracts and ar
 ```bash
 pip install --upgrade truss
 ```
-2. Copy the deploy script folder to the current directory. 
-* To deploy a Foundation-Sec-8B model, copy the `foundation_sec_8b` folder. 
-* Alternatively, to deploy the Foundation-Sec-8B model **with a vLLM server** to Baseten, copy `foundation_sec_8b_vLLM` folder instead. Note that you can change the FoundationSec model or version in the "repo_id" of the "model_metadata" section if you'd like.
-* To deploy a **Foundation-Sec-8B-Reasoning** model to Baseten, copy the `foundation-sec-8b-reasoning` folder. This script deploys the **Reasoning Model** with a vLLM server.
+2. Navigate to the deploy script folder  
+* To deploy a Foundation-Sec-8B model, navigate to the `foundation_sec_8b` folder. 
+* Alternatively, to deploy the Foundation-Sec-8B model **with a vLLM server** to Baseten, navigate to the `foundation_sec_8b_vLLM` folder instead. Note that you can change the FoundationSec model or version in the "repo_id" of the "model_metadata" section if you'd like.
+* To deploy a **Foundation-Sec-8B-Reasoning** model to Baseten, navigate to the `foundation-sec-8b-reasoning` folder. This script deploys the **Reasoning Model** with a vLLM server.
 
 3. Deploy the model:
 ```bash
@@ -88,3 +88,7 @@ def inference(prompt):
     return response
 
 ```
+
+## Inference
+
+Refer to [inference_reasoning_model.ipynb](https://github.com/cisco-foundation-ai/cookbook/blob/main/3_adoptions/deployment/baseten/inference_reasoning_model.ipynb) for reasoning model inference on Baseten.
