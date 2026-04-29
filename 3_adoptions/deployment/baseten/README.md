@@ -9,27 +9,31 @@ Please note that we assume you already have Baseten accounts or contracts and ar
 ```bash
 pip install --upgrade truss
 ```
-2. Copy the foundation_sec_8b folder to the current directory. If you want to deploy a FoundationSec model with a vLLM server to Baseten, copy "foundation_sec_8b_vLLM" folder instead. Note that you can change the FoundationSec model or version in the "repo_id" of the "model_metadata" section if you'd like.
+2. Copy the deploy script folder to the current directory. 
+* To deploy a Foundation-Sec-8B model, copy the `foundation_sec_8b` folder. 
+* Alternatively, to deploy the Foundation-Sec-8B model **with a vLLM server** to Baseten, copy `foundation_sec_8b_vLLM` folder instead. Note that you can change the FoundationSec model or version in the "repo_id" of the "model_metadata" section if you'd like.
+* To deploy a **Foundation-Sec-8B-Reasoning** model to Baseten, copy the `foundation-sec-8b-reasoning` folder. This script deploys the **Reasoning Model** with a vLLM server.
 
 3. Deploy the model:
 ```bash
 truss push # You would be prompted to provide API key. If you don't have one, you can get it from the console.
 ```
 4. Run Inference
-Once it's deployed, you can run inference using the endpoint.
 
-**Example 1: Baseten [Predict API Endpoint](https://docs.baseten.co/inference/calling-your-model#predict-api-endpoints)**
+Once it's deployed, you can run inference using the endpoint. Do note that the endpoint URLs are different depending on the request type.
+
+**Example 1: Baseten [Chat Completion API Endpoint](https://docs.baseten.co/reference/inference-api/overview)** 
 
 ```python
 import requests
 
-ENDPOINT_URL = "" # Replace with your endpoint URL
+ENDPOINT_URL = "" # Replace with your endpoint URL. Example: https://model-{model_id}.api.baseten.co/environments/production/sync/v1/chat/completions
 API_KEY = "" # Replace with your API key
 
 def inference(prompt):
-    data = {'prompt': prompt}
-    # If you want to add your own generation_args, you can do so like this:
-    # data['generate_args'] = YOUR_GENERATION_ARGS
+    data = {'messages': [{"role": "user", "content": prompt}]}
+    # If you want to add your own generation_args, you can do so like this: data['generate_args'] = YOUR_GENERATION_ARGS
+    # For example: data['max_tokens'] = 2000
     response = requests.post(
         ENDPOINT_URL,
         headers={"Authorization": f"Api-Key {API_KEY}"},
@@ -38,52 +42,49 @@ def inference(prompt):
     return response.text
 ```
 
-`YOUR_GENERATION_ARGS` is a dictionary containing generation arguments. <br>
+**Example 2: Baseten [Predict API Endpoint](https://docs.baseten.co/inference/calling-your-model#predict-api-endpoints)**
 
-For more details, refer to the [configuration section of quickstart guide](https://github.com/RobustIntelligence/foundation-ai-cookbook/blob/main/1_quickstarts/Quickstart_Foundation-Sec-8B.ipynb).
+```python
+import requests
 
-**Example 2: Baseten deployment with the [OpenAI SDK](https://docs.baseten.co/inference/calling-your-model#openai-sdk)**
+ENDPOINT_URL = "" # Replace with your endpoint URL. Example: https://model-{model_id}.api.baseten.co/environments/production/predict
+API_KEY = "" # Replace with your API key
 
-Baseten's Engine Builder supports setting up OpenAI compatible servers. This is useful to run inference with a vLLM server using the [OpenAI API](https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html), our recommended method for utulizing constrained decoding backend.
+def inference(prompt):
+    data = {'prompt': prompt}
+    # If you want to add your own generation_args, you can do so like this: data['generate_args'] = YOUR_GENERATION_ARGS
+    # For example: data['max_tokens'] = 2000
+    response = requests.post(
+        ENDPOINT_URL,
+        headers={"Authorization": f"Api-Key {API_KEY}"},
+        json=data,
+    )
+    return response.text
+```
 
-OpenAI's Chat Completions API:
+**Example 3: Baseten deployment with the [OpenAI SDK](https://docs.baseten.co/inference/calling-your-model#openai-sdk)**
+
 
 ```python
 
 import requests
+from openai import OpenAI
 
-ENDPOINT_URL = "" # Replace with your endpoint URL
+ENDPOINT_URL = "" # Replace with your endpoint URL. Exzample: https://model-{model_id}.api.baseten.co/environments/production/sync/v1
 API_KEY = "" # Replace with your API key
 
+client = OpenAI(
+    base_url=ENDPOINT_URL,
+    api_key=API_KEY,
+)
 
-def create_request(prompt: str, schema: dict) -> dict:
-    return {
-        "messages": [
-            {
-                "role": "user",
-                "content": prompt,
-            }
+def inference(prompt):
+    response = client.chat.completions.create(
+        model="",  # must match --served-model-name in the deployment. For example: fdtn-ai/Foundation-Sec-8B-Reasoning
+        messages=[
+            {"role": "user", "content": prompt}
         ],
-        "response_format": {
-            "type": "json_schema",
-            "json_schema": {
-                "name": "response_schema",
-                "schema": schema,
-            },
-        }
-    }
-
-def inference(prompt: str, schema: dict, url=ENDPOINT_URL) -> str:
-    headers = {
-        "Authorization": f"Api-Key {API_KEY}"
-    }
-    response = requests.post(
-        url,
-        headers=headers,
-        json=create_request(prompt, schema),
     )
-    return response.json()
+    return response
 
 ```
-
-For example schemas using the constrained decoding baceknd, see "Structured_Outputs.ipynb" under 3_adoptions/deployment/integrations. 
