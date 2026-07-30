@@ -1,4 +1,4 @@
-# Antares Quickstart
+# Antares Quickstart Guide
 
 Run a focused Antares investigation, inspect its JSON report, and expand to a
 small repository-aware sweep. Once your inference connection is available, this
